@@ -12,3 +12,5 @@ const port = 3006;
 server.listen(port, function() {
     console.log(`BACKEND is running on port ${port}.`);
 });
+
+module.exports = server;
